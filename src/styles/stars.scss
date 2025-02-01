@@ -1,3 +1,5 @@
+@import 'variables';
+
 .card__rate {
   display: flex;
   justify-content: space-between;
@@ -11,9 +13,9 @@
       background-image: url(/src/images/star.svg);
       background-position: center;
       background-repeat: no-repeat;
-      width: 16px;
-      height: 16px;
-      margin-right: 4px;
+      width: $stars-size;
+      height: $stars-size;
+      margin-right: $stars-margine-right;
     }
   }
 
